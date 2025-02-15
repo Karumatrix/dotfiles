@@ -1,4 +1,4 @@
-sudo pacman -S hyprland neovim kitty tmux cliphist thunar otf-font-awesome ttf-space-mono-nerd rofi btop zsh
+sudo pacman -S hyprland neovim kitty cliphist thunar otf-font-awesome ttf-space-mono-nerd rofi btop zsh
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 chsh -s $(which zsh)
@@ -10,7 +10,7 @@ cd yay
 makepkg -si
 cd ..
 
-yay -S brave visual-studio-code-bin swaylock-effects swaybg waypaper waybar
+yay -S brave visual-studio-code-bin swaylock-effects swaybg waypaper waybar vesktop
 
 cp -r ./config/* $HOME/.config/
 cp -r ./.repos/* $HOME/.repos/
