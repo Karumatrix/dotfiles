@@ -13,4 +13,3 @@ cd ..
 yay -S brave visual-studio-code-bin swaylock-effects swaybg waypaper waybar vesktop
 
 cp -r ./config/* $HOME/.config/
-cp -r ./.repos/* $HOME/.repos/
