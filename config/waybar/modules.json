@@ -18,10 +18,10 @@
         }
     },
     "pulseaudio": {
-        "format": "{icon}  {volume}%",
-        "format-bluetooth": "{icon} {volume}%  {format_source}",
-        "format-bluetooth-muted": " {icon} {format_source}",
-        "format-muted": " {format_source}",
+        "format": "{icon}   {volume}%",
+        "format-bluetooth": "{icon}   {volume}%  {format_source}",
+        "format-bluetooth-muted": "  {icon}  {format_source}",
+        "format-muted": "  {format_source}",
         "format-source": " {volume}%",
         "format-source-muted": "",
         "format-icons": {
@@ -41,7 +41,6 @@
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ⚠",
-	"on-click": "sh ~/scripts/rofi-wifi-menu/rofi-wifi-menu.sh"
 	 
     },
     "cpu": {
@@ -50,7 +49,7 @@
     },
     "memory": {
         "format": "  {}%",
-	"tooltip": true
+	    "tooltip": true
     },
     "temperature": {
         "interval": 10,
