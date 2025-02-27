@@ -121,3 +121,4 @@ source ~/.repos/powerlevel10k/powerlevel10k.zsh-theme
 source ~/.repos/powerlevel10k/powerlevel10k.zsh-theme
 
 alias update="sudo pacman -Syyuu && yay -Syyuu"
+alias hypr="Hyprland && exit"
