@@ -10,6 +10,6 @@ cd yay
 makepkg -si
 cd ..
 
-yay -S brave visual-studio-code-bin swaylock-effects swaybg waypaper waybar hyprshot
+yay -S brave visual-studio-code-bin swaylock-effects swaybg waypaper waybar hyprshot wdisplays
 
 cp -r ./config/* $HOME/.config/
