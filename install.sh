@@ -1,4 +1,4 @@
-sudo pacman -S hyprland neovim kitty cliphist thunar discord otf-font-awesome ttf-space-mono-nerd rofi btop zsh ripgrep noto-fonts-emoji bluez bluez-utils
+sudo pacman -S hyprland neovim kitty cliphist thunar discord otf-font-awesome ttf-space-mono-nerd rofi btop zsh ripgrep noto-fonts-emoji bluez bluez-utils brightnessctl
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 chsh -s $(which zsh)
